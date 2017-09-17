@@ -1,0 +1,33 @@
+{
+  "name": "NetCore-Simple",
+  "description": "Frontend code for NetCore.Simple nuget package",
+  "main": [
+    "js/styles.js",
+    "css/style.css"
+  ],
+  "keywords": [
+    "netcore",
+    "simple",
+    "netcore.simple"
+  ],
+  "authors": [
+    "Neville Nazerane"
+  ],
+  "dependencies": {
+    "jquery": "~3.2.1",
+    "angular": "~1.6.6"
+  },
+  "license": "MIT",
+  "homepage": "http://netcoresimple.azurewebsites.net/",
+  "private": false,
+  "_release": "20b3aeb7ca",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "20b3aeb7cab4d6b621ec3dca4afad6a0a93d6505"
+  },
+  "_source": "https://github.com/neville-nazerane/NetCore.Simple.git",
+  "_target": "*",
+  "_originalSource": "netcore-simple",
+  "_direct": true
+}

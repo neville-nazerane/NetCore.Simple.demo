@@ -1,0 +1,9 @@
+@{ 
+    Layout = "~/Views/Shared/netcore.simple/_editorLayout.cshtml";
+}
+
+@{ var i = Html.GetInputGenerator<Person>(); }
+
+@i.Make(p => p.FirstName)
+
+@i.Make(p => p.LastName)

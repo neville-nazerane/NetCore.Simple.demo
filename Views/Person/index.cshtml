@@ -1,0 +1,25 @@
+@model Editor
+@{
+    ViewData["Title"] = "Persons management";
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+    </thead>
+    @foreach (var p in Person.GetAll())
+    {
+        <tr>
+            <td><a href="~/Person/@p.ID">@p.ID</a></td>
+            <td>@p.FirstName</td>
+            <td>@p.LastName</td>
+        </tr>
+    }
+</table> 
+
+
+@Html.Partial("PersonEditor", Model)

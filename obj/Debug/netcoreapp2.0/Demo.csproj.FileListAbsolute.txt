@@ -1,0 +1,10 @@
+D:\Cloud\Dropbox\codes\nugets\NetCore.Simple\Demo\NetCore.Simple.demo\bin\Debug\netcoreapp2.0\Demo.deps.json
+D:\Cloud\Dropbox\codes\nugets\NetCore.Simple\Demo\NetCore.Simple.demo\bin\Debug\netcoreapp2.0\Demo.runtimeconfig.json
+D:\Cloud\Dropbox\codes\nugets\NetCore.Simple\Demo\NetCore.Simple.demo\bin\Debug\netcoreapp2.0\Demo.runtimeconfig.dev.json
+D:\Cloud\Dropbox\codes\nugets\NetCore.Simple\Demo\NetCore.Simple.demo\bin\Debug\netcoreapp2.0\Demo.dll
+D:\Cloud\Dropbox\codes\nugets\NetCore.Simple\Demo\NetCore.Simple.demo\bin\Debug\netcoreapp2.0\Demo.pdb
+D:\Cloud\Dropbox\codes\nugets\NetCore.Simple\Demo\NetCore.Simple.demo\obj\Debug\netcoreapp2.0\Demo.csproj.CoreCompileInputs.cache
+D:\Cloud\Dropbox\codes\nugets\NetCore.Simple\Demo\NetCore.Simple.demo\obj\Debug\netcoreapp2.0\Demo.AssemblyInfoInputs.cache
+D:\Cloud\Dropbox\codes\nugets\NetCore.Simple\Demo\NetCore.Simple.demo\obj\Debug\netcoreapp2.0\Demo.AssemblyInfo.cs
+D:\Cloud\Dropbox\codes\nugets\NetCore.Simple\Demo\NetCore.Simple.demo\obj\Debug\netcoreapp2.0\Demo.dll
+D:\Cloud\Dropbox\codes\nugets\NetCore.Simple\Demo\NetCore.Simple.demo\obj\Debug\netcoreapp2.0\Demo.pdb

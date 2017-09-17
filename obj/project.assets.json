@@ -2670,6 +2670,28 @@
           }
         }
       },
+      "NetCore.Simple/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.All": "2.0.0",
+          "NetCore.Simple.Core": "1.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/NetCore.Simple.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/NetCore.Simple.dll": {}
+        }
+      },
+      "NetCore.Simple.Core/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/NetCore.Simple.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/NetCore.Simple.Core.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -7390,6 +7412,27 @@
         "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "NetCore.Simple/1.1.0": {
+      "sha512": "qXmkxeTuxgkUP42vrLZgKdvaBhld79AerVp1uD0zPErxDKp1Qqzd9Up995bGC5w9Ws5Ee6QOkC0bPgECndqslw==",
+      "type": "package",
+      "path": "netcore.simple/1.1.0",
+      "files": [
+        "lib/netcoreapp2.0/NetCore.Simple.dll",
+        "netcore.simple.1.1.0.nupkg.sha512",
+        "netcore.simple.nuspec",
+        "readme.txt"
+      ]
+    },
+    "NetCore.Simple.Core/1.0.0": {
+      "sha512": "JDG7OYRT9ejOyD+T2ROVIDE+0NlaXruJC3i2UdC+AWg8Ru0AIfRr+mulbhB3ygPlZiP08oYQUktsN+BRi5SAqQ==",
+      "type": "package",
+      "path": "netcore.simple.core/1.0.0",
+      "files": [
+        "lib/netcoreapp2.0/NetCore.Simple.Core.dll",
+        "netcore.simple.core.1.0.0.nupkg.sha512",
+        "netcore.simple.core.nuspec"
       ]
     },
     "NETStandard.Library/2.0.0": {
@@ -12529,7 +12572,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "NetCore.Simple >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -12577,6 +12621,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "NetCore.Simple": {
+            "target": "Package",
+            "version": "1.1.0"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
