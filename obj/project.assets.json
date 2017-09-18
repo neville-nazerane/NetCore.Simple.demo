@@ -2670,7 +2670,7 @@
           }
         }
       },
-      "NetCore.Simple/1.1.0": {
+      "NetCore.Simple/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
@@ -7414,13 +7414,13 @@
         "version.txt"
       ]
     },
-    "NetCore.Simple/1.1.0": {
-      "sha512": "qXmkxeTuxgkUP42vrLZgKdvaBhld79AerVp1uD0zPErxDKp1Qqzd9Up995bGC5w9Ws5Ee6QOkC0bPgECndqslw==",
+    "NetCore.Simple/2.0.0": {
+      "sha512": "wlRRf3N9I6sRcrRvQccv4eaB4/Ltvlj7bsd+gFIxQVecRI6jSecVQoF4ZaVbnYE0QLy0jxwuVK6Tv/zi7GqK7A==",
       "type": "package",
-      "path": "netcore.simple/1.1.0",
+      "path": "netcore.simple/2.0.0",
       "files": [
         "lib/netcoreapp2.0/NetCore.Simple.dll",
-        "netcore.simple.1.1.0.nupkg.sha512",
+        "netcore.simple.2.0.0.nupkg.sha512",
         "netcore.simple.nuspec",
         "readme.txt"
       ]
@@ -12573,7 +12573,7 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "NetCore.Simple >= 1.1.0"
+      "netcore.simple >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -12621,9 +12621,9 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "NetCore.Simple": {
+          "netcore.simple": {
             "target": "Package",
-            "version": "1.1.0"
+            "version": "2.0.0"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

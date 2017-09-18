@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NetCore.Simple.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Demo.Models
 {
-    public class Person
+    public class Person : IBasicModel
     {
         private static List<Person> _Data = new List<Person>();
 
@@ -21,7 +22,8 @@ namespace Demo.Models
         public string LastName { get; set; }
 
         public void Add() {
-            ID = _Data.Count() + 1;
+            if (_Data.Count() == 0) ID = 1;
+            else ID = _Data.Select(p => p.ID).Max() + 1;
             _Data.Add(this);
         }
 

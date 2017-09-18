@@ -1,12 +1,12 @@
 
 var formData = {};
 
-(function () { 
+(function () {
 
     // start form submit
 
     var app = angular.module("netcore-simple", []);
-    
+
     app.directive('popupUrl', function () {
         return {
             scope: true,
@@ -88,13 +88,13 @@ var formData = {};
     });
 
     // app.directive("formData", function () {
-        // return {
-            // restrict: 'A',
-            // scope: true,
-            // controller: function ($scope, $attrs) {
-                // if (typeof (formData[$attrs.formEditor]) !== "undefined") $scope.frm = formData[$attrs.formEditor];
-            // }
-        // };
+    // return {
+    // restrict: 'A',
+    // scope: true,
+    // controller: function ($scope, $attrs) {
+    // if (typeof (formData[$attrs.formEditor]) !== "undefined") $scope.frm = formData[$attrs.formEditor];
+    // }
+    // };
     // });
 
     // end form submit
@@ -112,7 +112,7 @@ var formData = {};
 
                 $scope.UpdateSearch = function () {
                     var key = typeof ($attrs.selectFilter) === "undefined" ?
-                                 "filters." + $attrs.selectModel : $attrs.selectFilter;
+                        "filters." + $attrs.selectModel : $attrs.selectFilter;
                     var data = typeof (key) === "undefined" ?
                         $scope.filter : fetchObj($scope.$parent, key);
 
@@ -125,11 +125,11 @@ var formData = {};
                                 $scope.$apply(function () {
                                     $scope.options = data.responseJSON;
                                 });
-                            
+
                             }
                         }
                     });
-                
+
                 };
 
 
@@ -179,7 +179,7 @@ var formData = {};
             scope: true,
             controller: function ($scope, $element) {
                 var opt = $scope.$parent.option;
-            
+
                 $element.bind('click', function () {
 
                     $scope.$parent.$parent.$apply(function ($scope) {
@@ -217,7 +217,7 @@ var formData = {};
             if (typeof (src[k]) === "object") {
                 pushObj(src[k], dest[k]);
             }
-            else{
+            else {
                 src[k] = dest[k];
             }
         }
@@ -237,7 +237,7 @@ var formData = {};
     }
 
     function onlyDefined(v1, v2) {
-        return typeof (v1) === "undefined" ? v2: v1;
+        return typeof (v1) === "undefined" ? v2 : v1;
     }
 
 

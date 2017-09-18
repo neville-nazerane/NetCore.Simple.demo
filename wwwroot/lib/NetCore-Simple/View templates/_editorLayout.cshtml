@@ -1,6 +1,7 @@
+@using NetCore.Simple
 @model NetCore.Simple.Models.Editor
 
-@{ 
+@{
 
     string dataID = Guid.NewGuid().ToString("N");
     string submitURL = Model.SubmitURL == null ?
@@ -9,10 +10,10 @@
 
 @if (Model.Data != null)
 {
-        <script>
+    <script>
             formData["@dataID"] = @Html.toJS(Model.Data);
-        </script>
-    
+    </script>
+
 }
 
 
