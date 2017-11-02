@@ -2,10 +2,6 @@
   "name": "asp.net",
   "private": true,
   "dependencies": {
-    "bootstrap": "v3.3.7",
-    "jquery": "3.2.1",
-    "angular": "v1.6.7-build.5460+sha.8f61cf6",
-    "NetCore-Simple": "netcore-simple#*"
   },
   "resolutions": {
     "jquery": "3.2.1"

@@ -1,5 +1,5 @@
 {
-  "name": "NetCore-Simple",
+  "name": "netCore-simple",
   "description": "Frontend code for NetCore.Simple nuget package",
   "main": [
     "js/styles.js",
@@ -20,11 +20,11 @@
   "license": "MIT",
   "homepage": "http://netcoresimple.azurewebsites.net/",
   "private": false,
-  "_release": "207af83f0f",
+  "_release": "4676c3a741",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "207af83f0f4044475dd2ab262b3ffd51a1402b39"
+    "commit": "4676c3a741f363083e7854ca54ff77b8d6d4ad3f"
   },
   "_source": "https://github.com/neville-nazerane/NetCore.Simple.git",
   "_target": "*",
