@@ -11,6 +11,6 @@ namespace Demo.Controllers
 {
     public class PersonController : BasicController<Person>
     {
-        
+
     }
 }

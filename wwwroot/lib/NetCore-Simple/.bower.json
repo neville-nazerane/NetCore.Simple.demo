@@ -20,11 +20,11 @@
   "license": "MIT",
   "homepage": "http://netcoresimple.azurewebsites.net/",
   "private": false,
-  "_release": "d832fc25d1",
+  "_release": "207af83f0f",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "d832fc25d116e72de2f2340a9df1ebe869bb2c68"
+    "commit": "207af83f0f4044475dd2ab262b3ffd51a1402b39"
   },
   "_source": "https://github.com/neville-nazerane/NetCore.Simple.git",
   "_target": "*",
