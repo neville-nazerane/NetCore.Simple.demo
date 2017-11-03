@@ -16,9 +16,5 @@
     <Folder Include="wwwroot\lib\NetCore-Simple\View templates\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\NetCore.Simple\NetCore.Simple.csproj" />
-  </ItemGroup>
-
 
 </Project>
